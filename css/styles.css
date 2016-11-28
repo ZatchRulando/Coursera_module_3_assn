@@ -1,0 +1,141 @@
+
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: Times;
+	color: White;
+}
+
+body {
+	background-color: purple;
+
+}
+
+p {
+	padding: 20px;
+	margin: 10;
+}
+
+.container {
+	border: 1 px black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+section {
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+	border:	1px solid black;
+	background-color: white;
+	width: 100%;
+	height: auto;
+}
+
+#chicken {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 135%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	color: white;
+	background-color: green;
+	font-family: Times;
+	font-weight: bold;
+}
+
+#beef {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-size: 135%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: red;
+	color: white;
+	font-family: Times;
+	font-weight: bold;
+}
+
+#sushi {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-size: 135%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  border:0 0 10px 10px solid black;
+  color: black;
+  font-size: 1.8em;
+}
+
+#header-nav {
+  border: 1px solid black;
+  background-color: orange;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: gray;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
